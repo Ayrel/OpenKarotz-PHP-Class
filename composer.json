@@ -1,0 +1,11 @@
+{
+    "name": "ayrel/karotz",
+    "description": "api karotz",
+    "authors": [
+        {
+            "name": "Laurent Rossillol",
+            "email": "l.rossillol@jacquetmetals.com"
+        }
+    ],
+    "require": {}
+}
