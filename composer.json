@@ -7,5 +7,10 @@
             "email": "l.rossillol@jacquetmetals.com"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/process": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Ayrel\\Karotz\\": "src/"}
+    }
 }

@@ -1,4 +1,6 @@
 <?php
+namespace Ayrel\Karotz;
+
 /*
 OpenKarotz PHP Class
 Version 1.0
@@ -29,7 +31,7 @@ class OpenKarotz
 	{
 		$request = curl_init($this->_request);
 		curl_setopt($request, CURLOPT_RETURNTRANSFER, true);
-		curl_setopt($request, CURLOPT_TIMEOUT, 10); 
+		curl_setopt($request, CURLOPT_TIMEOUT, 10);
 		$out = curl_exec($request);
 
 		return json_decode($out, true);
